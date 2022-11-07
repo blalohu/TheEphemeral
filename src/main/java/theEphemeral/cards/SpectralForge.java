@@ -33,7 +33,7 @@ public class SpectralForge extends AbstractVanishingCard {
 
     private static final int COST = 1;
     //private static final int UPGRADED_COST = 0;
-    private static final int VANISHING = 2;
+    private static final int VANISHING = 3;
 
 
     // /STAT DECLARATION/

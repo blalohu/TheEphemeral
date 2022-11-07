@@ -46,7 +46,7 @@ public class ImpendingDoom extends AbstractDynamicCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         if (upgraded) {
-            int damage = PreviewWidget.GetAugury() + 3;
+            int damage = PreviewWidget.GetAugury();
             if (damage > 0) {
                 addToBot(new DamageAllEnemiesAction(AbstractDungeon.player, DamageInfo.createDamageMatrix(damage, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_VERTICAL));
             }
