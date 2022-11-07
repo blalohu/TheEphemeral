@@ -29,8 +29,8 @@ public class LostToAges extends AbstractDynamicCard {
     private static final CardType TYPE = CardType.SKILL;
     public static final CardColor COLOR = TheEphemeral.Enums.COLOR_EPHEMERAL_PURPLE;
 
-    private static final int COST = 0;
-    private static final int MAGIC_NUMBER = 1;
+    private static final int COST = 1;
+    private static final int MAGIC_NUMBER = 2;
     private static final int UPGRADE_PLUS_MAGIC_NUMBER = 1;
 
     // /STAT DECLARATION/
@@ -44,8 +44,8 @@ public class LostToAges extends AbstractDynamicCard {
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new DrawCardAction(magicNumber));
-        addToBot(new ExhaustAction(1, false));
+        addToBot(new DrawCardAction(1));
+        addToBot(new ExhaustAction(magicNumber, true));
         addToBot(new MakeTempCardInDiscardAction(makeStatEquivalentCopy(), 1));
     }
 

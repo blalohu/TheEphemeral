@@ -56,7 +56,7 @@ public class ImpendingDoomPower extends AbstractPower implements CloneablePowerI
 
     @Override
     public void atEndOfTurn(boolean isPlayer) {
-        int damage = PreviewWidget.GetAugury() * amount;
+        int damage = PreviewWidget.GetAugury() * amount + 3;
         if (damage > 0) {
             flash();
             addToBot(new DamageAllEnemiesAction(AbstractDungeon.player, DamageInfo.createDamageMatrix(damage, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_VERTICAL));
