@@ -1,0 +1,137 @@
+{
+        "theEphemeral:MurmurationPower": {
+                "NAME": "Murmuration",
+                "DESCRIPTIONS": [
+                        "At the start of your turn, gain #b",
+                        " #yAugury."
+                ]
+        },
+        "theEphemeral:PhantomWingsPower": {
+                "NAME": "Phantom Wings",
+                "DESCRIPTIONS": [
+                        "At the end of your turn, gain #yBlock equal to your #yAugury.",
+                        "At the end of your turn, gain #yBlock equal to #b",
+                        " times your #yAugury."
+                ]
+        },
+        "theEphemeral:ClairvoyancePower": {
+                "NAME": "Clairvoyance",
+                "DESCRIPTIONS": [
+                        "At the start of your turn, add #b",
+                        " #yFleeting #yThought to your hand.",
+                        " #yFleeting #yThoughts to your hand."
+                ]
+        },
+        "theEphemeral:SwirlingMistsPower": {
+                "NAME": "Swirling Mists",
+                "DESCRIPTIONS": [
+                        "Whenever you draw or #yExhaust an #yEthereal card, gain #b",
+                        " #yBlock."
+                ]
+        },
+        "theEphemeral:ReflectingPoolPower": {
+                "NAME": "Reflecting Pool",
+                "DESCRIPTIONS": [
+                        "Whenever you play an #yAttack without #yExhaust, add #b",
+                        " #yFleeting #yStrike to your hand.",
+                        " #yFleeting #yStrikes to your hand."
+                ]
+        },
+        "theEphemeral:KismetPower": {
+                "NAME": "Kismet",
+                "DESCRIPTIONS": [
+                        "Whenever you shuffle your draw pile, draw #b",
+                        " card and gain #b",
+                        " cards and gain #b",
+                        " #yBlock."
+                ]
+        },
+        "theEphemeral:MaelstromPower": {
+                "NAME": "Maelstrom",
+                "DESCRIPTIONS": [
+                        "If you play #b",
+                        " more card this turn, apply #b",
+                        " more cards this turn, apply #b",
+                        " #yWeak and #b",
+                        " #yVulnerable to ALL enemies."
+                ]
+        },
+        "theEphemeral:ImpendingDoomPower": {
+                "NAME": "Impending Doom",
+                "DESCRIPTIONS": [
+                        "At the end of your turn, deal damage to ALL enemies equal to your #yAugury.",
+                        "At the end of your turn, deal damage to ALL enemies equal to #b",
+                        " times your #yAugury."
+                ]
+        },
+        "theEphemeral:DarkContractPower": {
+                "NAME": "Dark Contract",
+                "DESCRIPTIONS": [
+                        "Whenever you gain #yAugury, gain ",
+                        "and lose #b",
+                        " life."
+                ]
+        },
+        "theEphemeral:SoothsayerPower": {
+                "NAME": "Soothsayer",
+                "DESCRIPTIONS": [
+                        "An additional #b",
+                        " card may trigger #yFated this turn. #yFated effects are #b",
+                        " cards may trigger #yFated this turn. #yFated effects are #b",
+                        " times stronger."
+                ]
+        },
+        "theEphemeral:GrimResolvePower": {
+                "NAME": "Grim Resolve",
+                "DESCRIPTIONS": [
+                        "Whenever you would lose life, lose #b",
+                        " less."
+                ]
+        },
+        "theEphemeral:ReturnToAetherPower": {
+                "NAME": "Return to Aether",
+                "DESCRIPTIONS": [
+                        "At the end of your turn, #yExhaust ALL cards in your hand."
+                ]
+        },
+        "theEphemeral:ChaosRiftPower": {
+                "NAME": "Chaos Rift",
+                "DESCRIPTIONS": [
+                        "Increase the #yEntropy bonus by #b",
+                        "."
+                ]
+        },
+        "theEphemeral:HarbingerFormPower": {
+                "NAME": "Harbinger Form",
+                "DESCRIPTIONS": [
+                        "At the end of each turn, play the top card of your draw pile.",
+                        "At the end of each turn, play the top card of your draw pile #b",
+                        " times.",
+                        " Any damage dealt or #yBlock gained is doubled."
+                ]
+        },
+        "theEphemeral:ElysianNectarPower": {
+                "NAME": "Elysian Nectar",
+                "DESCRIPTIONS": [
+                        "This turn, whenever you play a card, draw a card.",
+                        "This turn, whenever you play a card, draw #b",
+                        " cards."
+                ]
+        },
+        "theEphemeral:PreviewWidget": {
+                "NAME": "PreviewWidget",
+                "DESCRIPTIONS": [
+                        "Augury",
+                        "Up to #b",
+                        " cards from the top of your draw pile are displayed in order. Max of #b7, lose #b1 #yAugury at the start of each turn."
+                ]
+        },
+        "theEphemeral:BlindedViewScreen": {
+                "NAME": "BlindedViewScreen",
+                "DESCRIPTIONS": [
+                        "Draw Pile",
+                        "Discard Pile",
+                        "You are blind and must rely on your mystical powers."
+                ]
+        }
+}

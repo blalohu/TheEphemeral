@@ -1,0 +1,66 @@
+[
+  {
+    "PROPER_NAME": "Augury",
+    "NAMES": [
+      "Augury",
+      "augury"
+    ],
+    "DESCRIPTION": "This number of cards from the top of your draw pile are revealed, maximum of #b7. NL Lose #b1 #yAugury at the start of each turn."
+  },
+  {
+    "PROPER_NAME": "Revealed",
+    "NAMES": [
+      "Revealed",
+      "revealed"
+    ],
+    "DESCRIPTION": "Cards from the top of your draw pile that are displayed by #yAugury."
+  },
+  {
+    "PROPER_NAME": "Fated",
+    "NAMES": [
+      "Fated",
+      "fated"
+    ],
+    "DESCRIPTION": "Gain the additional effect if this is the first #yFated card you play in a turn."
+  },
+  {
+    "PROPER_NAME": "Vanishing",
+    "NAMES": [
+      "Vanishing",
+      "vanishing"
+    ],
+    "DESCRIPTION": "Exhausts when played and the value is reduced by #b1. When this reaches #b0, remove it from your deck #ycompletely."
+  },
+  {
+    "PROPER_NAME": "Entropy",
+    "NAMES": [
+      "Entropy",
+      "entropy"
+    ],
+    "DESCRIPTION": "When played, ALL cards with #yEntropy will deal #b1 additional #ydamage or gain #b1 additional #yBlock for the rest of combat."
+  },
+  {
+    "PROPER_NAME": "Fleeting Strike",
+    "NAMES": [
+      "fleeting strike",
+      "fleeting_strike"
+    ],
+    "DESCRIPTION": "A small misdirection of fate."
+  },
+  {
+    "PROPER_NAME": "Fleeting Dodge",
+    "NAMES": [
+      "fleeting dodge",
+      "fleeting_dodge"
+    ],
+    "DESCRIPTION": "A small misdirection of fate."
+  },
+  {
+    "PROPER_NAME": "Fleeting Thought",
+    "NAMES": [
+      "fleeting thought",
+      "fleeting_thought"
+    ],
+    "DESCRIPTION": "A small misdirection of fate."
+  }
+]

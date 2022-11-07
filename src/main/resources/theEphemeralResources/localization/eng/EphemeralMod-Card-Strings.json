@@ -1,0 +1,360 @@
+{
+  "theEphemeral:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "theEphemeral:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "theEphemeral:ReadTheStars": {
+    "NAME": "Read the Stars",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! theephemeral:Augury."
+  },
+  "theEphemeral:ThroughTheVeil": {
+    "NAME": "Through the Veil",
+    "DESCRIPTION": "Deal !D! damage. NL theephemeral:Fated: add !M! theephemeral:Fleeting_Dodge to your hand."
+  },
+
+  "theEphemeral:ThrowBones": {
+    "NAME": "Throw Bones",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !M! theephemeral:Augury."
+  },
+  "theEphemeral:StranglingMist": {
+    "NAME": "Strangling Mist",
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL Shuffle a Dazed into to your draw pile."
+  },
+  "theEphemeral:Silhouette": {
+    "NAME": "Silhouette",
+    "DESCRIPTION": "Deal !D! damage. NL Add !M! theephemeral:Fleeting_Strike to your hand."
+  },
+  "theEphemeral:ChillingTouch": {
+    "NAME": "Chilling Touch",
+    "DESCRIPTION": "Deal !D! damage. NL Apply 1 Weak for each theephemeral:Revealed Attack.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Apply !M! Weak.)"
+    ]
+  },
+  "theEphemeral:PsychicStrike": {
+    "NAME": "Psychic Strike",
+    "DESCRIPTION": "Deal !D! damage. NL theephemeral:Fated: add !M! theephemeral:Fleeting_Thought to your hand."
+  },
+  "theEphemeral:BlindSwipe": {
+    "NAME": "Blind Swipe",
+    "DESCRIPTION": "Deal !D! damage. NL Shuffle your discard pile into your draw pile."
+  },
+  "theEphemeral:SpectralGrasp": {
+    "NAME": "Spectral Grasp",
+    "DESCRIPTION": "Deal !D! damage. NL theephemeral:Vanishing !theEphemeral:SecondMagic!."
+  },
+  "theEphemeral:Omen": {
+    "NAME": "Omen",
+    "DESCRIPTION": "Deal !D! damage. NL theephemeral:Fated: apply !M! Vulnerable."
+  },
+  "theEphemeral:DrainSoul": {
+    "NAME": "Drain Soul",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Upgrade ALL cards that are theephemeral:Revealed for the rest of combat.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL Upgrade ALL cards that are theephemeral:Revealed and in your hand for the rest of combat."
+  },
+  "theEphemeral:Discord": {
+    "NAME": "Discord",
+    "DESCRIPTION": "Deal !D! damage. NL theephemeral:Entropy."
+  },
+  "theEphemeral:VeiledEdge": {
+    "NAME": "Veiled Edge",
+    "DESCRIPTION": "Can only be played if you have an Ethereal card theephemeral:Revealed or in your hand. NL Deal !D! damage.",
+    "EXTENDED_DESCRIPTION": [
+      "I have no Ethereal cards Revealed or in my hand."
+    ]
+  },
+
+  "theEphemeral:Phantaplasm": {
+    "NAME": "Phantaplasm",
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage to ALL enemies. NL theephemeral:Entropy."
+  },
+  "theEphemeral:PiercingMist": {
+    "NAME": "Piercing Mist",
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage twice. NL Add 2 Dazed to your discard pile."
+  },
+  "theEphemeral:Ambush": {
+    "NAME": "Ambush",
+    "DESCRIPTION": "Deal !D! damage. NL theephemeral:Fated: deals double damage."
+  },
+  "theEphemeral:Cataclysm": {
+    "NAME": "Cataclysm",
+    "DESCRIPTION": "Deal !D! damage. NL Discard the top 3 cards of your draw pile."
+  },
+  "theEphemeral:CastStones": {
+    "NAME": "Cast Stones",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! theephemeral:Augury. NL If the top card of your draw pile is an Attack, play it."
+  },
+  "theEphemeral:BlindFury": {
+    "NAME": "Blind Fury",
+    "DESCRIPTION": "Deal !D! damage. NL Shuffle your discard pile into your draw pile, then play a random Attack from your draw pile."
+  },
+  "theEphemeral:SpectralThief": {
+    "NAME": "Spectral Thief",
+    "DESCRIPTION": "Deal !D! damage to a random target 2 times. NL If Fatal, gain !M! Gold. NL theephemeral:Vanishing !theEphemeral:SecondMagic!."
+  },
+  "theEphemeral:Degeneration": {
+    "NAME": "Degeneration",
+    "DESCRIPTION": "Deal !D! damage twice. NL theephemeral:Entropy."
+  },
+  "theEphemeral:Image": {
+    "NAME": "Image",
+    "DESCRIPTION": "Deal !D! damage. NL If you have triggered theephemeral:Fated this turn, gain [E] and draw a card."
+  },
+
+  "theEphemeral:Bladestorm": {
+    "NAME": "Bladestorm",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies twice. NL theephemeral:Fated: deals damage two additional times."
+  },
+  "theEphemeral:SpiritStrike": {
+    "NAME": "Spirit Strike",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Draw 1 card. NL Discard 1 card. NL If this card is discarded from anywhere, gain !theEphemeral:SecondMagic! Strength."
+  },
+  "theEphemeral:RealityFracture": {
+    "NAME": "Reality Fracture",
+    "DESCRIPTION": "Deal !D! damage X+1 times. NL theephemeral:Entropy.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage X+2 times. NL theephemeral:Entropy."
+  },
+  "theEphemeral:Disaster": {
+    "NAME": "Disaster",
+    "DESCRIPTION": "Deal !D! damage. NL If you have 7 theephemeral:Augury, deals triple damage."
+  },
+  "theEphemeral:BurningVengeance": {
+    "NAME": "Burning Vengeance",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies."
+  },
+  "theEphemeral:Subsume": {
+    "NAME": "Subsume",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, gain !M! health."
+  },
+
+  "theEphemeral:TimeSkip": {
+    "NAME": "Time Skip",
+    "DESCRIPTION": "Play the top card of your draw pile. NL Exhaust. NL theephemeral:Fated: gain [E].",
+    "UPGRADE_DESCRIPTION": "Play the top card of your draw pile. NL theephemeral:Fated: gain [E]."
+  },
+  "theEphemeral:Fade": {
+    "NAME": "Fade",
+    "DESCRIPTION": "Gain !B! Block. NL theephemeral:Entropy."
+  },
+  "theEphemeral:Pirouette": {
+    "NAME": "Pirouette",
+    "DESCRIPTION": "Gain !B! Block. NL Add !M! theephemeral:Fleeting_Dodge to your hand."
+  },
+  "theEphemeral:Portent": {
+    "NAME": "Portent",
+    "DESCRIPTION": "Gain !M! theephemeral:Augury. NL theephemeral:Fated: draw 2 cards."
+  },
+  "theEphemeral:Delay": {
+    "NAME": "Delay",
+    "DESCRIPTION": "Gain !B! Block. NL Put a card from your hand on top of your draw pile."
+  },
+  "theEphemeral:Remembrance": {
+    "NAME": "Remembrance",
+    "DESCRIPTION": "Gain !B! Block. NL Put a card from your discard pile on top of your draw pile."
+  },
+  "theEphemeral:SpiritGuide": {
+    "NAME": "Spirit Guide",
+    "DESCRIPTION": "Gain !B! Block. NL Draw 1 card. NL Discard 1 card."
+  },
+  "theEphemeral:SpectralWall": {
+    "NAME": "Spectral Wall",
+    "DESCRIPTION": "Gain !B! Block. NL theephemeral:Vanishing !theEphemeral:SecondMagic!."
+  },
+
+  "theEphemeral:LostToAges": {
+    "NAME": "Lost to Ages",
+    "DESCRIPTION": "Draw !M! card. NL Exhaust a card in your hand. NL Add a copy of this to your discard pile.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. NL Exhaust a card in your hand. NL Add a copy of this to your discard pile."
+  },
+  "theEphemeral:BoonOfTheSpinner": {
+    "NAME": "Boon of the Spinner",
+    "DESCRIPTION": "Draw 1 card. NL Discard 1 card. NL If this card is discarded from anywhere, gain [E].",
+    "UPGRADE_DESCRIPTION": "Draw 1 card. NL Discard 1 card. NL If this card is discarded from anywhere, gain [E] [E]."
+  },
+  "theEphemeral:BoonOfTheAlloter": {
+    "NAME": "Boon of the Alloter",
+    "DESCRIPTION": "Draw 1 card. NL Discard 1 card. NL If this card is discarded from anywhere, draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Draw 1 card. NL Discard 1 card. NL If this card is discarded from anywhere, draw !M! cards."
+  },
+  "theEphemeral:BoonOfTheInflexible": {
+    "NAME": "Boon of the Inflexible",
+    "DESCRIPTION": "Draw 1 card. NL Discard 1 card. NL If this card is discarded from anywhere, ALL enemies lose !M! Strength this turn."
+  },
+  "theEphemeral:BlindFaith": {
+    "NAME": "Blind Faith",
+    "DESCRIPTION": "Shuffle your discard pile into your draw pile, then add !M! theephemeral:Fleeting_Thought to your hand."
+  },
+  "theEphemeral:BlindingBlock": {
+    "NAME": "Blinding Block",
+    "DESCRIPTION": "Shuffle your discard pile into your draw pile, then gain !B! Block. NL theephemeral:Fated: gained Block is increased by !M!."
+  },
+  "theEphemeral:Tasseomancy": {
+    "NAME": "Tasseomancy",
+    "DESCRIPTION": "Gain !M! theephemeral:Augury. NL If the top card of your draw pile is a Skill, play it. NL Exhaust."
+  },
+  "theEphemeral:RecurringNightmare": {
+    "NAME": "Recurring Nightmare",
+    "DESCRIPTION": "Choose a card in your discard pile and play it."
+  },
+  "theEphemeral:PeerThroughMists": {
+    "NAME": "Peer Through Mists",
+    "DESCRIPTION": "Exhaust all Status and Curse cards that are theephemeral:Revealed or in your hand. Gain !B! Block for each card Exhausted."
+  },
+  "theEphemeral:Dowse": {
+    "NAME": "Dowse",
+    "DESCRIPTION": "Gain 2 theephemeral:Augury. NL Add !M! theephemeral:Fleeting_Thought to your hand."
+  },
+  "theEphemeral:FrigidAura": {
+    "NAME": "Frigid Aura",
+    "DESCRIPTION": "Gain !B! Block. NL theephemeral:Fated: apply !M! Weak to ALL enemies."
+  },
+  "theEphemeral:Premonition": {
+    "NAME": "Premonition",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! theephemeral:Augury. NL theephemeral:Fated: gain [E]."
+  },
+  "theEphemeral:Dissipate": {
+    "NAME": "Dissipate",
+    "DESCRIPTION": "Gain !B! Block. NL theephemeral:Fated: Gain 1 Intangible and Exhaust."
+  },
+  "theEphemeral:SpectralBinding": {
+    "NAME": "Spectral Binding",
+    "DESCRIPTION": "Enemy loses !M! Strength. NL Apply !M! Weak and Vulnerable. NL theephemeral:Vanishing !theEphemeral:SecondMagic!."
+  },
+  "theEphemeral:Revelation": {
+    "NAME": "Revelation",
+    "DESCRIPTION": "Gain [E] [E]. NL Draw !M! cards."
+  },
+  "theEphemeral:StrengthFromBeyond": {
+    "NAME": "Strength from Beyond",
+    "DESCRIPTION": "Add 2 theephemeral:Fleeting_Strike to your hand. NL Gain !M! Temporary Strength."
+  },
+  "theEphemeral:FortuneForetold": {
+    "NAME": "Fortune Foretold",
+    "DESCRIPTION": "Gain [E] equal to your theephemeral:Augury."
+  },
+  "theEphemeral:Cartomancy": {
+    "NAME": "Cartomancy",
+    "DESCRIPTION": "Choose 1 of 3 random cards to add to the top of your draw pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose 1 of 3 random cards to add to the top of your draw pile. NL It costs 0 this combat. NL Exhaust."
+  },
+
+  "theEphemeral:Wasting": {
+    "NAME": "Wasting",
+    "DESCRIPTION": "Enemy loses Strength equal to your theephemeral:Augury. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Enemy loses Strength equal to your theephemeral:Augury. NL Exhaust."
+  },
+  "theEphemeral:TemptFate": {
+    "NAME": "Tempt Fate",
+    "DESCRIPTION": "Shuffle your discard pile into your draw pile, then draw !M! cards. NL Exhaust."
+  },
+  "theEphemeral:BrokenMirror": {
+    "NAME": "Broken Mirror",
+    "DESCRIPTION": "Choose a theephemeral:Revealed card. Add a copy of that card into your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose a theephemeral:Revealed card. Add a copy of that card into your hand.",
+    "EXTENDED_DESCRIPTION": [
+      "I have no valid Revealed cards."
+    ]
+  },
+  "theEphemeral:Numerology": {
+    "NAME": "Numerology",
+    "DESCRIPTION": "Draw X cards. NL They cost X less this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Draw X+1 cards. NL They cost X less this turn. NL Exhaust."
+  },
+  "theEphemeral:SpectralForge": {
+    "NAME": "Spectral Forge",
+    "DESCRIPTION": "Upgrade ALL your cards for the rest of combat. NL theephemeral:Vanishing !theEphemeral:SecondMagic!.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Upgrade ALL your cards for the rest of combat. NL theephemeral:Vanishing !theEphemeral:SecondMagic!.",
+    "EXTENDED_DESCRIPTION": [
+      "I have no cards that can upgrade."
+    ]
+  },
+  "theEphemeral:TemporalSurge": {
+    "NAME": "Temporal Surge",
+    "DESCRIPTION": "Play all theephemeral:Revealed Attacks and Skills. NL Exhaust."
+  },
+
+  "theEphemeral:Murmuration": {
+    "NAME": "Murmuration",
+    "DESCRIPTION": "At the start of your turn, gain !M! theephemeral:Augury.",
+    "UPGRADE_DESCRIPTION": "Now and at the start of your turn, gain !M! theephemeral:Augury."
+  },
+  "theEphemeral:PhantomWings": {
+    "NAME": "Phantom Wings",
+    "DESCRIPTION": "At the end of your turn, gain Block equal to your theephemeral:Augury.",
+    "UPGRADE_DESCRIPTION": "Now and at the end of your turn, gain Block equal to your theephemeral:Augury."
+  },
+  "theEphemeral:Clairvoyance": {
+    "NAME": "Clairvoyance",
+    "DESCRIPTION": "At the start of your turn, add a theephemeral:Fleeting_Thought to your hand.",
+    "UPGRADE_DESCRIPTION": "Now and at the start of your turn, add a theephemeral:Fleeting_Thought to your hand."
+  },
+  "theEphemeral:SwirlingMists": {
+    "NAME": "Swirling Mists",
+    "DESCRIPTION": "Whenever you draw or Exhaust an Ethereal card, gain !M! Block."
+  },
+  "theEphemeral:ReflectingPool": {
+    "NAME": "Reflecting Pool",
+    "DESCRIPTION": "Whenever you play an attack without Exhaust, add a theephemeral:Fleeting_Strike to your hand."
+  },
+  "theEphemeral:Kismet": {
+    "NAME": "Kismet",
+    "DESCRIPTION": "Whenever you shuffle your draw pile, draw a card and gain !M! Block."
+  },
+  "theEphemeral:Maelstrom": {
+    "NAME": "Maelstrom",
+    "DESCRIPTION": "Every time you play 5 cards in a single turn, apply 1 Weak and 1 Vulnerable to ALL enemies."
+  },
+  "theEphemeral:ImpendingDoom": {
+    "NAME": "Impending Doom",
+    "DESCRIPTION": "At the end of your turn, deal damage to ALL enemies equal to your theephemeral:Augury.",
+    "UPGRADE_DESCRIPTION": "Now and at the end of your turn, deal damage to ALL enemies equal to your theephemeral:Augury."
+  },
+  "theEphemeral:DarkContract": {
+    "NAME": "Dark Contract",
+    "DESCRIPTION": "Whenever you gain theephemeral:Augury, gain [E] and lose 1 life."
+  },
+  "theEphemeral:Soothsayer": {
+    "NAME": "Soothsayer",
+    "DESCRIPTION": "theephemeral:Fated effects are twice as strong and may trigger an additional time each turn."
+  },
+  "theEphemeral:GrimResolve": {
+    "NAME": "Grim Resolve",
+    "DESCRIPTION": "Whenever you would lose life, lose !M! less."
+  },
+  "theEphemeral:ReturnToAether": {
+    "NAME": "Return to Aether",
+    "DESCRIPTION": "At the end of your turn, Exhaust ALL cards in your hand.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of your turn, Exhaust ALL cards in your hand."
+  },
+  "theEphemeral:ChaosRift": {
+    "NAME": "Chaos Rift",
+    "DESCRIPTION": "Increase the theephemeral:Entropy bonus by !M!."
+  },
+  "theEphemeral:SpectralPhalanx": {
+    "NAME": "Spectral Phalanx",
+    "DESCRIPTION": "Gain !M! Strength and !M! Dexterity. NL theephemeral:Vanishing !theEphemeral:SecondMagic!."
+  },
+  "theEphemeral:HarbingerForm": {
+    "NAME": "Harbinger Form",
+    "DESCRIPTION": "Ethereal. NL At the end of each turn, play the top card of your draw pile. Any damage dealt or Block gained is doubled.",
+    "UPGRADE_DESCRIPTION": "At the end of each turn, play the top card of your draw pile. Any damage dealt or Block gained is doubled."
+  },
+
+  "theEphemeral:FleetingStrike": {
+    "NAME": "Fleeting Strike",
+    "DESCRIPTION": "Ethereal. NL Discard the top card of your draw pile. NL Deal !D! damage. NL Exhaust."
+  },
+  "theEphemeral:FleetingDodge": {
+    "NAME": "Fleeting Dodge",
+    "DESCRIPTION": "Ethereal. NL Discard the top card of your draw pile. NL Gain !B! Block. NL Exhaust."
+  },
+  "theEphemeral:FleetingThought": {
+    "NAME": "Fleeting Thought",
+    "DESCRIPTION": "Ethereal. NL Discard the top card of your draw pile. NL Draw 1 card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Ethereal. NL Discard the top card of your draw pile. NL Draw 2 cards. NL Exhaust."
+  }
+}
