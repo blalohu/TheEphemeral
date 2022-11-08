@@ -356,5 +356,10 @@
     "NAME": "Fleeting Thought",
     "DESCRIPTION": "Ethereal. NL Discard the top card of your draw pile. NL Draw 1 card. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Ethereal. NL Discard the top card of your draw pile. NL Draw 2 cards. NL Exhaust."
+  },
+  "theEphemeral:Coalesce": {
+      "NAME": "Coalesce",
+      "DESCRIPTION": "Ethereal. NL Add 1 to the counter of all theephemeral:Vanishing cards in your deck permanently. NL Exhaust.",
+      "UPGRADE_DESCRIPTION": "Add 1 to the counter of all theephemeral:Vanishing cards in your deck permanently. NL Exhaust."
   }
 }
