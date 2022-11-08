@@ -52,7 +52,7 @@ public class Coalesce extends AbstractDynamicCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         for (AbstractCard card : AbstractDungeon.player.masterDeck.group) {
             if (card instanceof AbstractVanishingCard) {
-               ((AbstractVanishingCard) card).defaultBaseSecondMagicNumber ++;
+               ((AbstractVanishingCard) card).misc ++;
             }
         }
 
