@@ -28,7 +28,7 @@ public class Kismet extends AbstractDynamicCard {
     public static final CardColor COLOR = TheEphemeral.Enums.COLOR_EPHEMERAL_PURPLE;
 
     private static final int COST = 1;
-    private static final int NUMBER = 6;
+    private static final int NUMBER = 4;
     private static final int UPGRADE_PLUS_NUMBER = 2;
 
 

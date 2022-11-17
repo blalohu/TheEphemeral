@@ -1,4 +1,4 @@
-package theEphemeral.cards;
+/*package theEphemeral.cards;
 
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.ExhaustAction;
@@ -60,3 +60,5 @@ public class LostToAges extends AbstractDynamicCard {
         }
     }
 }
+//This is currently on Hiatus until I can figure out what to do with it.
+ */

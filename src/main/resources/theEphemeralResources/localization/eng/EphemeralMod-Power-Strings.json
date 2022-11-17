@@ -133,5 +133,12 @@
                         "Discard Pile",
                         "You are blind and must rely on your mystical powers."
                 ]
+        },
+        "theEphemeral:ConvergeTimelinesPower": {
+                "NAME": "ConvergeTimelines",
+                "DESCRIPTIONS": [
+                        "Whenever you exhaust a card, deal #b",
+                        "damage to a random enemy."
+                ]
         }
 }

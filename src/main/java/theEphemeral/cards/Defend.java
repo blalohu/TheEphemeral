@@ -5,8 +5,10 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import theEphemeral.EphemeralMod;
 import theEphemeral.characters.TheEphemeral;
+import theEphemeral.previewWidget.PreviewWidget;
 
 import static theEphemeral.EphemeralMod.makeCardPath;
+import static com.megacrit.cardcrawl.core.CardCrawlGame.languagePack;
 
 public class Defend extends AbstractDynamicCard {
 
@@ -26,7 +28,6 @@ public class Defend extends AbstractDynamicCard {
     public static final CardColor COLOR = TheEphemeral.Enums.COLOR_EPHEMERAL_PURPLE;
 
     private static final int COST = 1;
-    // private static final int UPGRADED_COST = 0;
     private static final int BLOCK = 5;
     private static final int UPGRADE_PLUS_BLOCK = 3;
 
@@ -52,8 +53,9 @@ public class Defend extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
+            PreviewWidget.AddAugury(1);
+            this.rawDescription = languagePack.getCardStrings(ID).UPGRADE_DESCRIPTION;
             upgradeBlock(UPGRADE_PLUS_BLOCK);
-            //upgradeBaseCost(UPGRADED_COST);
             initializeDescription();
         }
     }

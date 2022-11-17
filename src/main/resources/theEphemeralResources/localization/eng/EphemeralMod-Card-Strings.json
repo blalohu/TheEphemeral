@@ -1,11 +1,13 @@
 {
   "theEphemeral:Strike": {
     "NAME": "Strike",
-    "DESCRIPTION": "Deal !D! damage."
+    "DESCRIPTION": "Deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain 1 theephemeral:Augury."
   },
   "theEphemeral:Defend": {
     "NAME": "Defend",
-    "DESCRIPTION": "Gain !B! Block."
+    "DESCRIPTION": "Gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain 1 theephemeral:Augury."
   },
   "theEphemeral:ReadTheStars": {
     "NAME": "Read the Stars",
@@ -202,7 +204,7 @@
   },
   "theEphemeral:PeerThroughMists": {
     "NAME": "Peer Through Mists",
-    "DESCRIPTION": "Exhaust all Status and Curse cards that are theephemeral:Revealed or in your hand. Gain !B! Block for each card Exhausted."
+    "DESCRIPTION": "Exhaust all Status, Curse and Ethereal cards that are theephemeral:Revealed or in your hand. Gain !B! Block for each card Exhausted."
   },
   "theEphemeral:Dowse": {
     "NAME": "Dowse",

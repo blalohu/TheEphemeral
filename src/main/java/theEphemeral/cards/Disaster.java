@@ -33,7 +33,7 @@ public class Disaster extends AbstractDynamicCard {
     public static final CardColor COLOR = TheEphemeral.Enums.COLOR_EPHEMERAL_PURPLE;
 
     private static final int COST = 2;
-    private static final int DAMAGE = 13;
+    private static final int DAMAGE = 17;
     private static final int UPGRADE_PLUS_DMG = 4;
 
     // /STAT DECLARATION/

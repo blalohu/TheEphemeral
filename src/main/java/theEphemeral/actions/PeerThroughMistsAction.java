@@ -30,7 +30,8 @@ public class PeerThroughMistsAction extends AbstractGameAction {
     public void update() {
         ArrayList<AbstractCard> handCardsToRemove = new ArrayList<>();
         p.hand.group.forEach(x -> {
-            if (x.type == AbstractCard.CardType.CURSE || x.type == AbstractCard.CardType.STATUS) {
+            if (x.type == AbstractCard.CardType.CURSE || x.type == AbstractCard.CardType.STATUS)
+            if (x.isEthereal) {
                 handCardsToRemove.add(x);
             }
         });
@@ -41,7 +42,8 @@ public class PeerThroughMistsAction extends AbstractGameAction {
 
         ArrayList<AbstractCard> drawPileCardsToRemove = new ArrayList<>();
         PreviewWidget.GetRevealedCards().forEach(x -> {
-            if (x.type == AbstractCard.CardType.CURSE || x.type == AbstractCard.CardType.STATUS) {
+            if (x.type == AbstractCard.CardType.CURSE || x.type == AbstractCard.CardType.STATUS)
+            if (x.isEthereal) {
                 drawPileCardsToRemove.add(x);
             }
         });
