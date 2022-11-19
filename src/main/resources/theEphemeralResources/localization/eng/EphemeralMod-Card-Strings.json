@@ -363,5 +363,9 @@
       "NAME": "Coalesce",
       "DESCRIPTION": "Ethereal. NL Add 1 to the counter of all theephemeral:Vanishing cards in your deck permanently. NL Exhaust.",
       "UPGRADE_DESCRIPTION": "Add 1 to the counter of all theephemeral:Vanishing cards in your deck permanently. NL Exhaust."
+  },
+  "theEphemeral:ConvergeTimelines": {
+    "NAME": "Converge Timelines",
+    "DESCRIPTION": "Whenever you #yExhaust a card, deal !M! damage to a random enemy."
   }
 }

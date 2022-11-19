@@ -46,6 +46,9 @@ public class Defend extends AbstractDynamicCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new GainBlockAction(p, p, block));
+            if (this.upgraded) {
+                PreviewWidget.AddAugury(1);
+            }
     }
 
     //Upgraded stats.
@@ -53,7 +56,6 @@ public class Defend extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            PreviewWidget.AddAugury(1);
             this.rawDescription = languagePack.getCardStrings(ID).UPGRADE_DESCRIPTION;
             upgradeBlock(UPGRADE_PLUS_BLOCK);
             initializeDescription();

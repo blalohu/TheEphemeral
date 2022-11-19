@@ -48,6 +48,9 @@ public class Strike extends AbstractDynamicCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
+            if (this.upgraded) {
+                PreviewWidget.AddAugury(1);
+            }
     }
 
     // Upgraded stats.
@@ -56,7 +59,6 @@ public class Strike extends AbstractDynamicCard {
         if (!upgraded) {
             upgradeName();
             upgradeDamage(UPGRADE_PLUS_DMG);
-            PreviewWidget.AddAugury(1);
             this.rawDescription = languagePack.getCardStrings(ID).UPGRADE_DESCRIPTION;
             initializeDescription();
         }
