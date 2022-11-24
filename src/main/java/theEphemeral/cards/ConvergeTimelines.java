@@ -28,7 +28,7 @@ public class ConvergeTimelines extends AbstractDynamicCard {
     private static final CardType TYPE = CardType.POWER;
     public static final CardColor COLOR = TheEphemeral.Enums.COLOR_EPHEMERAL_PURPLE;
 
-    private static final int COST = 2;
+    private static final int COST = 1;
     private static final int NUMBER = 1;
     private static final int UPGRADE_PLUS_NUMBER = 1;
 
